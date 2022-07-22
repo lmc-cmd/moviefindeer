@@ -36,7 +36,6 @@ const paginationLibraryWatch = new Pagination(containerPagination, {
     moreButton: '<a class="page-btn next-is-ellip last-child">...</a>',
   },
 });
-
 const paginationLibraryQueue = new Pagination(containerPagination, {
   itemsPerPage: cardsQuantity,
   visiblePages: 5,
