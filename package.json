@@ -1,15 +1,15 @@
 {
-  "name": "moviefindeer",
+  "name": "filmoteka",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://lmc-cmd.github.io/moviefindeer",
+  "homepage": "https://github.com/lmc-cmd/filmoteka.git",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /moviefindeer/"
+    "build": "parcel build src/*.html --public-url /filmoteka/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/lmc-cmd/filmoteka.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
@@ -22,14 +22,16 @@
     "basiclightbox": "^5.0.4",
     "modern-normalize": "^1.1.0",
     "notiflix": "^3.2.5",
-    "simplelightbox": "^2.10.3",
+    "parcel-transformer-hbs": "^1.0.4",
     "tui-pagination": "^3.4.1"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
+    "buffer": "^6.0.3",
     "parcel": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
-    "posthtml-include": "^1.7.4"
+    "posthtml-include": "^1.7.4",
+    "process": "^0.11.10"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
 }
