@@ -1,0 +1,70 @@
+.header_library {
+  position: relative;
+  background-image: url(../images/back_for_lib_mob.jpg);
+  background-size: cover;
+  width: 100%;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 62px;
+
+  @media screen and (min-width: 768px) {
+    background-image: url(../images/back_for_lib_tab.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 60px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    background-image: url(../images/back_for_lib.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+.nav-akcent {
+  border-bottom: 2.5px solid #ff001b;
+}
+
+.btn_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 40px;
+  }
+}
+
+.btn_click {
+  width: 148px;
+  height: 42px;
+  background: transparent;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  text-transform: uppercase;
+  border: 1px solid #ffffff;
+
+  color: var(--secondaryTextColor);
+}
+
+.btn_click:not(:last-child) {
+  margin-right: 16px;
+}
+
+.is-open {
+  background: #ff6b01;
+  border: none;
+  body.night & {
+    background-color: #13b3ff;
+  }
+}

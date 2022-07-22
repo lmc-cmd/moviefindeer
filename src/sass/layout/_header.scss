@@ -1,0 +1,159 @@
+.header {
+  position: relative;
+  background-image: url(../images/abstract-mob.jpg);
+  background-size: cover;
+  width: 100%;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 92px;
+
+  @media screen and (min-width: 768px) {
+    background-image: url(../images/abstract-tab.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 81px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    background-image: url(../images/abstract-bac.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 80px;
+  }
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.15;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: var(--secondaryTextColor);
+  display: none;
+  margin-left: 10px;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+
+  }
+}
+
+.logo-box {
+  display: flex;
+  align-items: baseline;
+}
+
+.icon {
+  display: flex;
+  align-items: baseline;
+  margin-top: 40px;
+  background-color: transparent;
+}
+
+.icon__logo {
+  fill: var(--accent-color);
+
+}
+
+
+
+.heder__dox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  margin-top: 49px;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.15;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: var(--secondaryTextColor);
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 39px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 1px solid seashell;
+  max-width: 280px;
+  height: 20px;
+  margin: 0 auto;
+  margin-top: 54px;
+
+  @media screen and (min-width: 768px) {
+    min-width: 336px;
+    margin-top: 40px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    max-width: 394px;
+    margin-top: 41px;
+  }
+}
+
+.imput_form {
+  border: none;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.15;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: var(--secondaryTextColor);
+}
+
+.imput_form::placeholder {
+  color: var(--secondaryTextColor);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.imput_form:focus {
+  outline: none;
+}
+
+.btn__form {
+  background-color: transparent;
+  border: none;
+}
